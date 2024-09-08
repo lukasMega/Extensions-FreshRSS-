@@ -335,10 +335,21 @@
             "name": "Readable",
             "author": "printfuck",
             "description": "Fetch article content for selected feeds with readability or mercury",
-            "version": "0.2",
+            "version": "0.3",
             "entrypoint": "Readable",
             "type": "user",
             "url": "https://github.com/printfuck/xExtension-Readable",
+            "method": "git",
+            "directory": "."
+        },
+        {
+            "name": "Readeck Button",
+            "author": "Joedmin",
+            "description": "Add articles to Readeck with one simple button click or a keyboard shortcut.",
+            "version": "0.3",
+            "entrypoint": "ReadeckButton",
+            "type": "user",
+            "url": "https://github.com/Joedmin/xExtension-readeck-button",
             "method": "git",
             "directory": "."
         },
@@ -540,6 +551,17 @@
             "url": "https://github.com/aledeg/xExtension-WhiteList",
             "method": "git",
             "directory": "."
+        },
+        {
+            "name": "Word highlighter",
+            "author": "Lukas Melega",
+            "description": "Highlight specific words",
+            "version": "0.0.2",
+            "entrypoint": "WordHighlighter",
+            "type": "user",
+            "url": "https://github.com/FreshRSS/Extensions",
+            "method": "git",
+            "directory": "xExtension-WordHighlighter"
         },
         {
             "name": "YouTube Video Feed",
